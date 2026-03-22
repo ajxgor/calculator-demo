@@ -1,5 +1,5 @@
 import pytest
-from calculator import add, subtract, multiply, divide
+from calculator import add, subtract, multiply, divide, modulo
 
 def test_add():
     assert add(2, 3) == 5
@@ -22,7 +22,6 @@ def test_divide_by_zero():
         divide(5, 0)
 
 def test_modulo():
-    calc = Calculator()
-    assert calc.modulo(10, 3) == 1
-    assert calc.modulo(7, 2) == 1
-    assert calc.modulo(9, 3) == 0
+    assert modulo(10, 3) == 1
+    assert modulo(7, 2) == 1
+    assert modulo(9, 3) == 0

@@ -12,6 +12,6 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-    def modulo(self, a, b):
-        """Return the remainder of a divided by b."""
-        return a % b
+def modulo(a, b):
+    """Return the remainder of a divided by b."""
+    return a % b
