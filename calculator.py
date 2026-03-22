@@ -12,6 +12,6 @@ def divide(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-    def power(self, a, b):
-        """Return a raised to the power of b."""
-        return a ** b
+def power(a, b):
+    """Return a raised to the power of b."""
+    return a ** b
